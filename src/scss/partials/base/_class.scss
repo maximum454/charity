@@ -1,0 +1,24 @@
+$color1: #FFFFFF;
+$color2: #707070;
+$color3: #32C8CE;
+$color4: #678CBF;
+$color5: #FF8699;
+
+*{
+	box-sizing: border-box;
+}
+html, body{
+	color: $color2;
+	font-family: $fonts1;
+}
+.hidden{
+	display: none;
+}
+.wrp{
+}
+.row{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
