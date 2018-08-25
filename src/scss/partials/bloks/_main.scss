@@ -1,0 +1,18 @@
+.main{
+	margin-right: 30px;
+	width: 749px;
+	h1{
+		font-size: 32px;
+		margin: 0 0 10px;
+	}
+	&__subtitle{
+		max-width: 340px;
+		font-size: 13px;
+		line-height: 18px;
+		margin: 0 0 15px;
+	}
+	@include r(768){
+		margin-right: 0;
+		width: 100%;
+	}
+}

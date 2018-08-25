@@ -1,0 +1,16 @@
+.nav{
+	position: relative;
+	height: 100%;
+	&__item{
+		color: $color2;
+		font-size: 13px;
+		text-decoration: none;
+		margin: 0 11px;
+		&:last-of-type{
+			margin-right: 0;
+		}
+		&.color1{
+			color: #DBDBDB;
+		}
+	}
+}

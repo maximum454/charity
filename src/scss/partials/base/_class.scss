@@ -10,6 +10,7 @@ $color5: #FF8699;
 html, body{
 	color: $color2;
 	font-family: $fonts1;
+	font-weight: normal;
 }
 .hidden{
 	display: none;
@@ -17,8 +18,16 @@ html, body{
 .wrp{
 }
 .row{
-	width: 1000px;
+	width: 1030px;
 	margin: 0 auto;
 	padding: 0 15px;
+	@include r(768){
+		width: 100%;
+	}
 }
+.content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
 
