@@ -5,7 +5,7 @@
 @import "base/class";
 
 /*blocks vendors*/
-
+@import "vendors/arcticmodal-0.3";
 
 /*blocks dacha*/
 @import "bloks/header";
@@ -16,3 +16,4 @@
 @import "bloks/footer";
 @import "bloks/what-doing";
 @import "bloks/aside";
+@import "bloks/card";

@@ -12,7 +12,13 @@
 		margin: 0 0 15px;
 	}
 	@include r(768){
-		margin-right: 0;
-		width: 100%;
+		margin-right: 16px;
+		width: 448px;
+		h1{
+			font-size: 19px;
+		}
+		&__subtitle{
+			max-width: 100%	;
+		}
 	}
 }

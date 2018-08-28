@@ -23,6 +23,7 @@ html, body{
 	padding: 0 15px;
 	@include r(768){
 		width: 100%;
+		max-width: 638px;
 	}
 }
 .content{

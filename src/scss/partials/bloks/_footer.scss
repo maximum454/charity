@@ -51,15 +51,60 @@
 		margin-right: 30px;
 	}
 	@include r(768){
-		&__inner{
-			justify-content: center;
-			flex-direction: column;
-		}
 		&__logo{
-			margin-bottom: 30px;
+			margin-right: 32px;
+			flex-shrink: 0;
+			padding-left: 65px;
+			position: relative;
+			color: #DBDBDB;
+			order: 2;
+			&:before{
+				content: '';
+				position: absolute;
+				top: -10px;
+				left: 0;
+				background-image: url("../img/Logo1@2x.png");
+				background-size: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				width: 55px;
+				height: 55px;
+			}
+			p{
+				font-size: 6px;
+				margin: 0;
+			}
+			b{
+				font-size: 21px;
+			}
+
 		}
 		&__contacts{
-			text-align: center;
+			margin-top: 0;
+			font-size: 11px;
+			order: 3;
+			margin-right: 0;
+			margin-left: auto;
+			p{
+				margin: 0 0 5px;
+			}
+			a{
+				color: inherit;
+				font-size: 17px;
+				text-decoration: none;
+			}
+		}
+		.nav{
+			top: 0;
+			margin-right: 0;
+			margin-bottom: 30px;
+			order: 1;
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			&__item{
+				font-size: 15px;
+			}
 		}
 	}
 }

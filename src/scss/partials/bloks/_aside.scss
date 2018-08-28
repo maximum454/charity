@@ -21,11 +21,23 @@
 		font-size: 12px;
 		line-height: 41px;
 		background-color: $color4;
-		width: 200px;
+		max-width: 200px;
+		width: 100%;
 		height: 41px;
 		border-radius: 5px;
 		&.color1{
 			background-color: $color3;
+		}
+	}
+	@include r(768){
+		width: 140px;
+		hr{
+			margin: 0 0 18px;
+		}
+		&__btn{
+			height: 28px;
+			font-size: 8px;
+			line-height: 28px;
 		}
 	}
 }
