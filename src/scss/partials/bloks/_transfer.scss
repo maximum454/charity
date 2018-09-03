@@ -1,0 +1,82 @@
+.transfer{
+	width: 866px;
+	border: 1px solid $color2;
+	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(#000,.2);
+	background-color: $color1;
+	padding:34px 100px 33px 18px;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	overflow: hidden;
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: $color5;
+		width: 100%;
+		height: 20px;
+	}
+	hr{
+		background-color: #DBDBDB;
+		width: 100%;
+		height: 1px;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	&__header{
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+	&__img{
+		width: 95px;
+		height: 95px;
+		margin-right: 40px;
+
+		img{
+			width: 100%;
+			height: 100%;
+			display: block;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+	}
+	&__anons{
+		width: 374px;
+	}
+	&__name{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	&__table{
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 28px;
+		tr{
+			font-size: 14px;
+			font-weight: normal;
+			&:first-child td{
+				font-size: 16px;
+				font-weight: bold;
+			}
+		}
+	}
+	&__resources{
+		margin-right: 0;
+		margin-left: auto;
+		p{
+			margin: 0 0 5px;
+		}
+	}
+	&__num{
+		color: $color5;
+		font-size: 24px;
+		font-weight: bold;
+		&.color1{
+			color: $color3;
+		}
+	}
+}
