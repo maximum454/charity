@@ -318,7 +318,7 @@
                 <div class="transfer__img">
                     <img src="img/rebenok-slushaet.jpg" alt="">
                 </div>
-                <div class="transfer__">
+                <div class="transfer__anons">
                     <div class="transfer__name">Станислав Логинов</div>
                     <hr>
                     <table class="transfer__table">
@@ -340,41 +340,41 @@
                     <p class="transfer__num color1">195 450 Т</p>
                 </div>
             </div>
+            <form class="transfer__form" action="">
+                <div class="transfer__title">Перевод средств на карту фонда</div>
+                <hr>
+                <div class="transfer__amount">
+                    <label for="sum">Введите сумму:</label> <input class="transfer__sum" id="sum" type="text" required> <span>ТГ.</span>
+                </div>
+                <div class="transfer__card">
+                    <div class="transfer__front">
+                        <div class="transfer__icon"></div>
+                        <input class="transfer__nomer" type="text" placeholder="Номер карты" required>
+                        <p class="transfer__data">Срок годности</p>
+                        <p><input class="transfer__mm" type="text" placeholder="ММ" required> / <input class="transfer__mm" type="text" placeholder="ГГ" required></p>
+                        <input type="text" placeholder="Имя на карте" required>
+                    </div>
+                    <div class="transfer__back">
+                        <input type="text" placeholder="CVC" required>
+                        <p>Три цифры на обороте карты</p>
+                    </div>
+                </div>
+                <div class="transfer__bottom">
+                    <div>
+                        <label for="email">Email</label> <input id="email" type="text">
+                    </div>
+                    <p>Если нужна копия квитанции<br> напишите свою почту</p>
+                </div>
+                <hr>
+                <div class="transfer__btn">
+                    <input type="submit" value="Перевести"> <p>Нажимая кнопку, вы соглашаетесь с<br> <a href="#">условиями использования и тд</a></p>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 
-<div class="transfer">
-    <div class="transfer__header">
-        <div class="transfer__img">
-            <img src="img/rebenok-slushaet.jpg" alt="">
-        </div>
-        <div class="transfer__anons">
-            <div class="transfer__name">Станислав Логинов</div>
-            <hr>
-            <table class="transfer__table">
-                <tr>
-                    <td>Возраст</td>
-                    <td>Диагноз</td>
-                </tr>
-                <tr>
-                    <td>4 года</td>
-                    <td>Атрезия клапана легочной артерии.</td>
-                </tr>
-            </table>
-        </div>
-        <div class="transfer__resources">
-            <p><b>Требуется средств</b></p>
-            <p class="transfer__num">400 000 Т</p>
-            <br>
-            <p><b>Собрано средств</b></p>
-            <p class="transfer__num color1">195 450 Т</p>
-        </div>
-    </div>
-    <form action="">
 
-    </form>
-</div>
 
 <script src="js/charity.js"></script>
 </body>
