@@ -34,7 +34,7 @@
                                 <p>Собрано<br>400 000 Т</p>
                             </div>
                         </div>
-                        <a class="items__btn popap_box" data-body="1" href="#">ПОМОЧЬ РЕБЕНКУ</a>
+                        <a class="items__btn popap_box" data-body="anons" href="#">ПОМОЧЬ РЕБЕНКУ</a>
                     </div>
                     <div class="items__item">
                         <div class="items__img label">
@@ -127,41 +127,13 @@
             </div>
         </main>
         <aside class="aside">
-            <div class="aside__group-btn">
-                <a class="aside__btn popap_box" data-body="2" href="#">СТАТЬ ВОЛОНТЕРОМ</a>
-                <a class="aside__btn color1" href="#">ПОЛУЧИТЬ ПОМОЩЬ</a>
-            </div>
-            <hr>
-            <div class="what-doing">
-                <h2 class="what-doing__head">Что мы делаем</h2>
-                <p class="what-doing__anons">Мы&nbsp;помогаем детям до&nbsp;трех лет и&nbsp;их&nbsp;родителям найти
-                    наиболее правильное решение, чтобы вместе справиться с&nbsp;бременем тяжелых болезней</p>
-                <a class="what-doing__btn" href="#">ПОДРОБНЕЕ</a>
-            </div>
-            <hr>
-            <div class="what-doing">
-                <h2 class="what-doing__head">Новости фонда</h2>
-                <br>
-                <h4>Фонд проводит акцию «Здравствуй школа»</h4>
-                <p class="what-doing__anons">Цель акции — собрать письменные товары для нуждающихся семей.</p>
-                <h4>Фонд проводит акцию «Здравствуй школа»</h4>
-                <p class="what-doing__anons">Цель акции — собрать письменные товары для нуждающихся семей.</p>
-                <h4>Фонд проводит акцию «Здравствуй школа»</h4>
-                <p class="what-doing__anons">Цель акции — собрать письменные товары для нуждающихся семей.</p>
-                <a class="what-doing__btn" href="#">Больше новостей</a>
-            </div>
-            <hr>
-            <div class="what-doing">
-                <h2 class="what-doing__head">Наши партнеры</h2>
-                <p class="what-doing__anons">Компании, оказывающие поддержку нашему фонду</p>
-                <img src="img/forte.svg" alt="forte bank">
-            </div>
+            //= template/aside.html
         </aside>
     </div>
     //= template/footer.html
 </div>
 <div class="hidden">
-    <div class="box-modal" id="modalbox_1">
+    <div class="box-modal" id="modalbox_anons">
         <div class="box-modal_close arcticmodal-close">закрыть</div>
         <div class="card">
             <aside class="card__aside">
@@ -265,7 +237,7 @@
         </div>
     </div>
 
-    <div class="box-modal" id="modalbox_2">
+    <div class="box-modal" id="modalbox_val">
         <div class="box-modal_close arcticmodal-close">закрыть</div>
         <form action="" class="form-volunteer">
             <div class="form-volunteer__title">Как стать волонтером?</div>
@@ -291,12 +263,12 @@
         </form>
     </div>
 
-    <div class="box-modal" id="modalbox_3">
+    <div class="box-modal" id="modalbox_ok-val">
         <div class="box-modal_close arcticmodal-close">закрыть</div>
-        <form action="" class="form-volunteer form-volunteer--ok">
-            <div class="form-volunteer__title">Спасибо! Ваша заявка принята!</div>
+        <form action="" class="ok">
+            <div class="ok__title">Спасибо! Ваша заявка принята!</div>
             <hr>
-            <div class="form-volunteer__inner">
+            <div class="ok__inner">
                 <p>Мы вам перезвоним в ближайшее время</p>
             </div>
         </form>
@@ -362,6 +334,17 @@
                 </div>
             </form>
         </div>
+    </div>
+
+    <div class="box-modal" id="modalbox_ok-transfer">
+        <div class="box-modal_close arcticmodal-close">закрыть</div>
+        <form action="" class="ok ok--trans">
+            <div class="ok__title">Спасибо! Ваша заявка принята!</div>
+            <hr>
+            <div class="ok__inner">
+                <p>Мы вам перезвоним в ближайшее время</p>
+            </div>
+        </form>
     </div>
 </div>
 
